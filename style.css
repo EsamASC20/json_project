@@ -1,1 +1,25 @@
-/* Add your styling here: */
+body {
+    text-align: center;
+    background-color: orange;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#profile{
+    display: flex;
+    align-items:flex-start;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  
+}
+
+#profile div {
+    display: flex;
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: white;
+    width: 400px;
+    margin: 5px;
+    color: orange;
+    text-align: center;
+}
